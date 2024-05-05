@@ -12,24 +12,24 @@ const Footer = () => {
     return (
         <div className='footerContainer '>
             <div className='contactList'>
-            <a href='#' target='_blank' rel="noreferrer">
+            <a href='https://github.com/yoseflakew25' target='_blank' rel="noreferrer">
                <GitHubIcon className='ic' />
            
                                      </a>
-                                     <a href='#' target='_blank' rel="noreferrer">
+                                     <a href='https://www.linkedin.com/in/yosef-lakeww/' target='_blank' rel="noreferrer">
             <LinkedInIcon />
                                      </a>
-                                     <a href='#' target='_blank' rel="noreferrer">
+                                     <a href='https://www.instagram.com/' target='_blank' rel="noreferrer">
             <InstagramIcon />
                                      </a>
-                                     <a href='#' target='_blank' rel="noreferrer">
+                                     <a href='mailto:yoseflakewdev@gmail.com' target='_blank' rel="noreferrer">
             <MailOutlineIcon />
                                      </a>
                                     
-                                     <a href='#' target='_blank' rel="noreferrer">
+                                     <a href='https://twitter.com/YOSEFLAKEW48676' target='_blank' rel="noreferrer">
             <XIcon />
                                      </a>
-                                     <a href='#' target='_blank' rel="noreferrer">
+                                     <a href='https://bio.link/yoseflakew' target='_blank' rel="noreferrer">
             <TelegramIcon />
                                      </a>
                              

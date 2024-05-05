@@ -45,6 +45,11 @@
     box-shadow: 2px 2px 1px 1px #60F3D1;
 }
 
+.eachProject:hover .projectImage {
+    box-shadow: 2px 2px 1px 1px #60F3D1;
+}
+
+
 
 .projectTechStack {
     margin-top: 20px;
