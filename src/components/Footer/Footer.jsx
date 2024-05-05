@@ -48,8 +48,8 @@ const Footer = () => {
                    
             </div>                    
             <div className='email'>
-                <a href='mailto:1babidagi@gmail.com'>
-                    <p> 1babidagi@gmail.com </p>
+                <a href='mailto:yoseflakewdev@gmail.com'>
+                    <p> yoseflakewdev@gmail.com </p>
                 </a>
                 <div className='verticalLine moveRight'></div>
             </div>

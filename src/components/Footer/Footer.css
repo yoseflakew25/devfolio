@@ -59,7 +59,7 @@
 .email p{
   position: fixed;
   bottom: 300px;
-  right: -40px;
+  right: -65px;
   transform: rotate(90deg);
   letter-spacing: 2px;
 }

@@ -45,7 +45,7 @@ const Contact = () => {
         <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-md md:leading-relaxed">
         I’m looking for great new opportunities so my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
         </p>
-        <a href='mailto:yoseflakewdev@gmail.com@gmail.com' rel='noreferrer'>
+        <a href='mailto:yoseflakewdev@gmail.com' rel='noreferrer'>
 
       
         <motion.button
