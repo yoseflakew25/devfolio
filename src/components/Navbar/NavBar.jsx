@@ -31,7 +31,7 @@ const NavBar = () => {
                     <h3 className='text-[#64FFDA]'>Yosef Lakew</h3>
                 </a>
             </div>
-            <div className='navBarItems'>
+            <div className='navBarItems hidden md:flex'>
                 <ol >                    
                     <a href='#aboutme' rel='noreferrer'>
                         <li> <span > 01. </span> About </li>

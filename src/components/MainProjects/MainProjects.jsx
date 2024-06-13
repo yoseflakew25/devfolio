@@ -37,7 +37,7 @@ const MainProjects = () => {
   return (
     <div className='mt-32' id='projects'>
       <h2 className='section__title underline underline-offset-8 mb-16'><span className='rollno'>04. Projects</span></h2>
-      <div className='flex flex-col gap-8 pl-64 pr-16'>
+      <div className='flex flex-col gap-8 pr-4 pl-16 md:pl-32 md:pr-8 lg:pl-64 lg:pr-16'>
         {projects.map((project) => {
           return project.odd ? <Projects key={project.projectTitle} project={project} /> : <Projects2 key={project.projectTitle} project={project} />;
         })}

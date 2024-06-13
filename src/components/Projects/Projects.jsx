@@ -11,7 +11,7 @@ const Projects = () => {
     <section id='projects' className='section projects mt-32'>
 <h2 className='section__title underline underline-offset-8 mb-16'><span className='rollno'>06. Other Noteworthy Projects</span></h2>
 
-      <div className='projects__grid'>
+      <div className='max-w-4xl mx-4 lg:mx-auto grid grid-cols-[repeat(auto-fit,minmax(18em,1fr))] gap-2'>
         {projects.map((project) => (
           <ProjectContainer key={uniqid()} project={project} />
         ))}

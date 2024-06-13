@@ -39,7 +39,7 @@ const Hero = () => {
           Hi, my name is
         </span>
         <h1 className="max-w-4xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-bold leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          Yosef Lakew.
+          Yosef Lake<span className="text-[#64FFDA]">w</span>.
           <br />
           I am a{" "}
           <span className="text-[#64FFDA]">Fullstack Engineer </span>

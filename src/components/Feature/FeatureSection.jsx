@@ -16,9 +16,9 @@ const FeatureSection = () => {
   const { title, description, btnLink, btnLabel } = featuresData;
 
   return (
-    <div className="feature-section-container group" id='aboutme' >
+    <div className="feature-section-container group " id='aboutme' >
       <div className="feature-section-content">
-        <div className="feature-section-card">
+        <div className="md:p-8 rounded-2xl flex-col flex md:flex-row gap-8 md:gap-16 justify-center items-center">
           <div className="feature-section-text">
             <h2 className='section__title underline underline-offset-8'><span className='rollno'>01. {title}</span></h2>
             <p className="feature-section-description">{description}</p><br />

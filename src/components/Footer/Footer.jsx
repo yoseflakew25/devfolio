@@ -11,8 +11,8 @@ const Footer = () => {
 
     return (
         <div className='footerContainer '>
-            <div className='contactList'>
-            <a href='https://github.com/yoseflakew25' target='_blank' rel="noreferrer">
+            <div className='contactList hidden lg:flex'>
+            <a href='https://github.com/yoseflakew25' target='_blank' rel="noreferrer" >
                <GitHubIcon className='ic' />
            
                                      </a>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <p> <span className='text-[#64FFDA] mr-8'>Yosef Lakew</span> { Date().substring(0, 16) }</p> 
                    
             </div>                    
-            <div className='email'>
+            <div className='email hidden lg:flex'>
                 <a href='mailto:yoseflakewdev@gmail.com'>
                     <p> yoseflakewdev@gmail.com </p>
                 </a>

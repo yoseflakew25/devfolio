@@ -12,7 +12,7 @@ const TimelineItem = ({ title, date, organization, description }) => (
 
 const Experiance = () => {
   return (
-    <article className="resume mx-80 mb-16 mt-32" id='experinace'>
+    <article className="resume mx-8 lg:mx-80 mb-16 mt-32" id='experinace'>
       <h2 className='section__title underline underline-offset-8'><span className='rollno'>03. Education & Experience</span></h2>
 
       <section className="timeline">
