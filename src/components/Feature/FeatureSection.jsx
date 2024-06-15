@@ -2,18 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../UI/Button';
 import './FeatureSection.css'; // Import CSS file
-import imgSrc from '../../assets/mypic.jpg'
+import imgSrc from '../../assets/me.png'
 
 const FeatureSection = () => {
   const featuresData = {
     title: "About Me",
-    description: "Our company is dedicated to helping landlords and property developers to rent and sell out their properties. If you want to save time and money, while expanding, you might want to be interested in our professional services. Our company could be your ideal partner for renting or selling your property. We are committed to our customers and promoters, and our main objective is to be transparent while achieving results.",
+    description: "I am passionate about leveraging technology to solve real-world problems and enhance user interactions. My expertise lies in developing intuitive user interfaces and robust back-end systems, allowing me to deliver comprehensive solutions.",
+    description2: " From the simplicity of a black & white terminal to today, I've had the opportunity to work with various startups, an event organizing company, a large organization, and a student-led design club. Currently, my primary focus is on creating accessible and inclusive products and digital experiences for diverse clients.",
     btnLink: "https://www.linkedin.com/in/yosef-lakeww/",
     btnLabel: "Visit My LinkedIn",
    
   };
 
-  const { title, description, btnLink, btnLabel } = featuresData;
+  const { title, description,description2, btnLink, btnLabel } = featuresData;
 
   return (
     <div className="feature-section-container group " id='aboutme' >
@@ -22,7 +23,7 @@ const FeatureSection = () => {
           <div className="feature-section-text">
             <h2 className='section__title underline underline-offset-8'><span className='rollno'>01. {title}</span></h2>
             <p className="feature-section-description">{description}</p><br />
-            <p className="feature-section-description">{description}</p>
+            <p className="feature-section-description">{description2}</p>
             {/* If you want to display description twice, you can duplicate the paragraph */}
             {/* <p className="feature-section-description">{description}</p> */}
           </div>

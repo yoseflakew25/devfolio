@@ -25,18 +25,20 @@ const Experiance = () => {
         <ol className="timeline-list">
           <TimelineItem
             title="BACHELOR OF SCIENCE IN SOFTWARE ENGINEERING"
-            date="2012 — 2016"
+            date="2019 — 2024"
             organization="Addis Ababa Science and Technology University, AA."
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            description=""
           />
           <TimelineItem
-            title="New York Academy of Art"
-            date="2006 — 2007"
-            description="Ratione voluptatem sequi nesciunt, facere quisquam facere menda ossimus, omnis voluptas assumenda est omnis.."
+            title="AWS Cloud Practitioner by ALX"
+            date="2024 —"
+            organization="ALX"
+            description="ALX is an Amazon Web Services (AWS) Academy member institution. This programme is developed and maintained by AWS, a world leader in cloud technologies."
           />
           <TimelineItem
-            title="Africa to Silicon Valley (A2SV) Organization"
+            title="Data Structure and Algorithm"
             date="2015 — 2016"
+            organization="Africa to Silicon Valley (A2SV) Organization"
             description="A2SV is a social enterprise that enables high-potential university students to create digital solutions to Africa’s most pressing problems."
           />
         </ol>
@@ -50,6 +52,20 @@ const Experiance = () => {
           <h3 className="h3 text-[#64FFDA]">Experience</h3>
         </div>
         <ol className="timeline-list">
+        <TimelineItem
+            title="UI DESIGNER AND FRONT-END DEVELOPER"
+            date="2022 — Present"
+            organization="Addis Ababa Science and Technology University"
+            description="I led the design, development, and implementation of a university department's website layout. I created site maps and mockups based on proven methodologies and user feedback."
+          />
+
+          
+        <TimelineItem
+            title="UI DESIGNER AND FRONT-END DEVELOPER"
+            date="2022 — Present"
+            organization="Addis Ababa Science and Technology University"
+            description="I led the design, development, and implementation of a university department's website layout. I created site maps and mockups based on proven methodologies and user feedback."
+          />
           <TimelineItem
             title="UI DESIGNER AND FRONT-END DEVELOPER"
             date="2022 — Present"

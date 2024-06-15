@@ -39,7 +39,7 @@ const Hero = () => {
           Hi, my name is
         </span>
         <h1 className="max-w-4xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-bold leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          Yosef Lake<span className="text-[#64FFDA]">w</span>.
+          Yosef Lakew.
           <br />
           I am a{" "}
           <span className="text-[#64FFDA]">Fullstack Engineer </span>
@@ -47,8 +47,7 @@ const Hero = () => {
           <span className="text-[#64FFDA]">UI / UX Designer</span>.
         </h1>
         <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-md md:leading-relaxed">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, et,
-          distinctio eum impedit nihil ipsum modi.
+        I am passionate about creating meaningful digital experiences. With a solid foundation in both front-end and back-end development, I bring a holistic approach to software design and engineering.
         </p>
         <a href="#aboutme">
 

@@ -6,13 +6,18 @@ const skills = [
     'JavaScript',
     'TypeScript',
     'React',
-    'Redux',
-    'SASS',
-    'Material UI',
+    'Tailwind',
+    'SASS/SCSS',
+    'Bootstrap',
+    'Node.js',
+    'Figma',
     'Git',
-    'CI/CD',
-    'Jest',
-    'Enzyme',
+    'C++',
+    'Java',
+    'Express.js',
+    'MongoDB',
+    'Sql',
+    'Next.js'
   ]
 
 export default skills;
