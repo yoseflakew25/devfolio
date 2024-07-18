@@ -2,12 +2,12 @@ import React from 'react';
 import './EachProject.css';
 
 const Projects2 = ({ project }) => {
-    const { projectOtherLink, projectGithubRepo, projectImage, projectTitle, projectDescription, projectTechStack } = project;
+    const { projectUrlLink, projectGithubRepo, projectImage, projectTitle, projectDescription, projectTechStack } = project;
 
     const renderGithubLink = projectGithubRepo && projectGithubRepo !== "";
-    const renderOtherLink = projectOtherLink && projectOtherLink !== "";
+    const renderOtherLink =  projectUrlLink && projectUrlLink !== "";
 
-    const link = renderOtherLink ? projectOtherLink : projectGithubRepo;
+    const link = projectUrlLink ? projectUrlLink : projectGithubRepo;
 
     return (
         <a href={link} target='_blank' rel="noreferrer">
@@ -33,7 +33,7 @@ const Projects2 = ({ project }) => {
                             </a>
                         )}
                         {renderOtherLink && (
-                            <a href={projectOtherLink} target='_blank' rel="noreferrer">
+                            <a href={projectUrlLink} target='_blank' rel="noreferrer">
                                 <ion-icon name="link-outline"></ion-icon>
                             </a>
                         )}

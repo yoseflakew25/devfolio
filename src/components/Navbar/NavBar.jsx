@@ -46,7 +46,7 @@ const NavBar = () => {
                         <li> <span> 04. </span> Contact </li>
                     </a>
                     
-                    <a href='https://drive.google.com/file/d/165I80gd4hACEDmf3QXFuMdUuGcWBZeyF/view?usp=drive_link' target='_blank' className='ml-2' >
+                    <a href='https://drive.google.com/file/d/1MSK7Gfwp9tebqX_NB9aBxymGPOchZAfX/view?usp=sharing' target='_blank' className='ml-2' >
                     <Button text="Resume" />
                     </a>
                 </ol>

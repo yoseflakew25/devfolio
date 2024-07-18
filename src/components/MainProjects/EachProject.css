@@ -15,9 +15,9 @@
 }
 
 .projectImage {
-    width: 590px;
-    height: 390px;
-    object-fit: cover;
+    width: 150rem;
+    height: auto;
+    object-fit: fit-content;
     border-radius: 5px;
     /* filter: grayscale(100%); */
 }

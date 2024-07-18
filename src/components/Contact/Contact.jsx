@@ -48,22 +48,9 @@ const Contact = () => {
         <a href='mailto:yoseflakewdev@gmail.com' rel='noreferrer'>
 
       
-        <motion.button
-          style={{
-            border,
-            boxShadow,
-          }}
-          whileHover={{
-            scale: 1.015,
-          }}
-          whileTap={{
-            scale: 0.985,
-          }}
-          className="group relative mt-4 flex w-fit items-center gap-1.5 rounded-lg px-16 py-4 text-gray-50 transition-colors hover:bg-gray-950/50"
-        >
-          Say Hello!
-          <FiArrowRight className="transition-transform group-hover:-rotate-45 group-active:-rotate-12" />
-        </motion.button>
+        <button className="rounded-lg border-2 border-solid border-[#64FFDA] bg-transparent text-sm px-16 py-2 mt-4 font-semibold uppercase text-[#64FFDA] transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#64FFDA] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+        Say Hello!
+      </button>
         </a>
       </div>
 
