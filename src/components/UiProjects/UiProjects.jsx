@@ -97,7 +97,7 @@ const UiProjects = () => {
 
   return (
     
-    <div className='flex flex-col gap-4 mx-32 my-16 items-center justify-center' id="ui-projects">
+    <div className='flex flex-col gap-4 mx-32 pt-32 pb-16 items-center justify-center' id="ui-projects">
       <h2 className='section__title underline underline-offset-8 mb-8'>
         <span className='rollno'>05. UI / UX Design Projects</span>
       </h2>

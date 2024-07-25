@@ -40,10 +40,13 @@ const NavBar = () => {
                         <li> <span> 02. </span> Experience </li>
                     </a>
                     <a href='#projects'>
-                        <li> <span> 03. </span> Projects </li>
+                        <li> <span> 03. </span> Dev Projects </li>
+                    </a>
+                    <a href='#ui-projects'>
+                        <li> <span> 04. </span> UI / UX Projects </li>
                     </a>
                     <a href='#contact'>
-                        <li> <span> 04. </span> Contact </li>
+                        <li> <span> 05. </span> Contact </li>
                     </a>
                     
                     <a href='https://drive.google.com/file/d/1MSK7Gfwp9tebqX_NB9aBxymGPOchZAfX/view?usp=sharing' target='_blank' className='ml-2' >
