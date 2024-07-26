@@ -44,9 +44,17 @@ const UiProjects = () => {
       figmaLink: "https://www.figma.com/design/5IcBUCt3Pq8uGG9QvidtbW/Event-Booking-App?node-id=1-4&t=CZbpmugemWnhW5O8-1",
       livePreviewLink: "https://www.figma.com/proto/5IcBUCt3Pq8uGG9QvidtbW/Event-Booking-App?page-id=1%3A4&node-id=14-1576&viewport=298%2C151%2C0.13&t=oGlYBHqHtqsu2oSi-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=14%3A1576&show-proto-sidebar=1"
     },
-
     {
       id: 5,
+      title: "Education App UI Design",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius laborum mollitia pariatur tempore harum quae quia quos non, repellendus quidem tempora ullam eos aspernatur? Libero veritatis labore eum quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum sunt necessitatibus omnis recusandae ipsum porro, reiciendis, natus inventore dolores et esse suscipit harum rerum laboriosam corporis non perferendis quia!",
+      imgSrc: education,
+      figmaLink: "https://www.figma.com/design/7jonxT3eXUwBs7k49T5t4p/TimirtBet-Wireframe-and-Ui-Design-Prototype?node-id=1395-2655&t=bWBglTpAuRntF99i-1",
+      livePreviewLink: "https://www.figma.com/proto/7jonxT3eXUwBs7k49T5t4p/TimirtBet-Wireframe-and-Ui-Design-Prototype?page-id=1395%3A2655&node-id=1395-3339&viewport=526%2C365%2C0.15&t=XN7x7YkFARZRoHmX-1&scaling=min-zoom&content-scaling=fixed"
+    },
+
+    {
+      id: 6,
       title: "Brana : A Bookstore App UI Design",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius laborum mollitia pariatur tempore harum quae quia quos non, repellendus quidem tempora ullam eos aspernatur? Libero veritatis labore eum quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum sunt necessitatibus omnis recusandae ipsum porro, reiciendis, natus inventore dolores et esse suscipit harum rerum laboriosam corporis non perferendis quia!",
       imgSrc: brana,
@@ -55,7 +63,7 @@ const UiProjects = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       title: "Fitness Tracking App UI Design",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius laborum mollitia pariatur tempore harum quae quia quos non, repellendus quidem tempora ullam eos aspernatur? Libero veritatis labore eum quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum sunt necessitatibus omnis recusandae ipsum porro, reiciendis, natus inventore dolores et esse suscipit harum rerum laboriosam corporis non perferendis quia!",
       imgSrc: purple,
@@ -64,22 +72,15 @@ const UiProjects = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       title: "Cloud Storage App UI Design",
       description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius laborum mollitia pariatur tempore harum quae quia quos non, repellendus quidem tempora ullam eos aspernatur? Libero veritatis labore eum quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum sunt necessitatibus omnis recusandae ipsum porro, reiciendis, natus inventore dolores et esse suscipit harum rerum laboriosam corporis non perferendis quia!",
       imgSrc: cloud,
       figmaLink: "https://www.figma.com/design/gGIoxd1PaAs7kM0LjNpWzb/dribbox-online-cloud-storage?node-id=0-1&t=IB8MRNGv9QrOvEms-1",
       livePreviewLink: "https://www.figma.com/proto/gGIoxd1PaAs7kM0LjNpWzb/dribbox-online-cloud-storage?page-id=0%3A1&node-id=0-299&viewport=329%2C365%2C0.34&t=DBokNo0MBjTC9heS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A299"
-    },
+    }
 
-    {
-      id: 8,
-      title: "Education App UI Design",
-      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eius laborum mollitia pariatur tempore harum quae quia quos non, repellendus quidem tempora ullam eos aspernatur? Libero veritatis labore eum quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cum sunt necessitatibus omnis recusandae ipsum porro, reiciendis, natus inventore dolores et esse suscipit harum rerum laboriosam corporis non perferendis quia!",
-      imgSrc: education,
-      figmaLink: "https://www.figma.com/design/7jonxT3eXUwBs7k49T5t4p/TimirtBet-Wireframe-and-Ui-Design-Prototype?node-id=1395-2655&t=bWBglTpAuRntF99i-1",
-      livePreviewLink: "https://www.figma.com/proto/7jonxT3eXUwBs7k49T5t4p/TimirtBet-Wireframe-and-Ui-Design-Prototype?page-id=1395%3A2655&node-id=1395-3339&viewport=526%2C365%2C0.15&t=XN7x7YkFARZRoHmX-1&scaling=min-zoom&content-scaling=fixed"
-    },
+
     // Add more projects as needed
   ];
 
