@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../UI/Button';
 import './FeatureSection.css'; // Import CSS file
-import imgSrc from '../../assets/me.png'
+import imgSrc from '../../assets/me.jpg'
 
 const FeatureSection = () => {
   const featuresData = {
