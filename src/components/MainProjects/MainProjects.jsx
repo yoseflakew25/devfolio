@@ -10,10 +10,30 @@ import notion from '../../assets/projects/notion.png';
 import google from '../../assets/projects/google.png';
 import phtotogram from '../../assets/projects/photogram.png';
 import sumz from '../../assets/projects/ai article.gif';
+import Akil from "../../assets/projects/akil.png";
+import DossieScholar from "../../assets/projects/dossiescholar.png";
 
 
 const MainProjects = () => {
   const projects = [
+    {
+      projectUrlLink: "https://akilconnect.org/en",
+      projectGithubRepo: "https://github.com/A2SV/AKIL",
+      projectImage: Akil,
+      projectTitle: "Akil",
+      projectDescription: "Akil is a platform designed to connect organizations with youth seeking opportunities. By simplifying the process of managing opportunities and enhancing communication, Akil helps organizations find the right talent while offering individuals tailored opportunities that align with their skills and interests.",
+      projectTechStack: ["Next js", "Go", "MongoDB",'Tailwind css'],
+      odd: true,
+    },
+    {
+      projectUrlLink: "https://dossiescholar.org/search",
+      projectGithubRepo: "https://github.com/orgs/Dossie-Dev/repositories",
+      projectImage: DossieScholar,
+      projectTitle: "DossieScholar",
+      projectDescription: "DossieScholar is a digital platform that consolidates and digitizes research papers from Ethiopian universities using advanced LLM-powered text extraction and Agentic RAG technology. You can discover Ethiopian research papers, obtain summaries, or access full PDFs.",
+      projectTechStack: ["React", "python","flask",'Tailwind css'],
+      odd: true,
+    },
     {
       projectUrlLink: "https://homefinder-awrp.onrender.com/",
       projectGithubRepo: "https://github.com/yoseflakew25/HomeFinder",
@@ -22,6 +42,15 @@ const MainProjects = () => {
       projectDescription: "HomeFinder is a comprehensive website that allows you to list and find a variety of homes for rent and purchase. This project provides a seamless and user-friendly experience for both homebuyers and property owners.",
       projectTechStack: ["React", "Node.js", "Express","MongoDB",'Tailwind css'],
       odd: true,
+    },
+    {
+      projectUrlLink: "https://notion-clone-yosef-coder.vercel.app/",
+      projectGithubRepo: "https://github.com/yoseflakew25/notion-clone",
+      projectImage: notion,
+      projectTitle: "Fullstack Notion Clone",
+      projectDescription: "This project is a clone of the note-taking app Notion, built with Next.js and TypeScript. Key features include a real-time database, a Notion-style editor, light and dark modes, infinite nested documents, a trash can with soft delete, authentication, file upload, deletion, and replacement, real-time document icons, an expandable and collapsible sidebar, full mobile responsiveness, web publishing, a landing page, document cover images, and file recovery.",
+      projectTechStack: ["React", "Tailwind CSS","typescript","nextjs","clerk","nextauth","convex"],
+      odd: false,
     },
     {
       projectUrlLink: "https://creativa-eight.vercel.app/",
@@ -58,15 +87,6 @@ const MainProjects = () => {
       projectDescription: "This 3d Tshirt Customizer web app is an immersive and interactive application that allows users to create personalized shirts and caps by selecting various parameters such as color, pattern, and adding custom images. Built on the React framework, the web app utilizes Tailwind CSS for responsive styling and Three.js for advanced 3D capabilities.",
       projectTechStack: ["React", "Tailwind CSS","three.js"],
       odd: true,
-    },
-    {
-      projectUrlLink: "https://notion-clone-yosef-coder.vercel.app/",
-      projectGithubRepo: "https://github.com/yoseflakew25/notion-clone",
-      projectImage: notion,
-      projectTitle: "Fullstack Notion Clone",
-      projectDescription: "This project is a clone of the note-taking app Notion, built with Next.js and TypeScript. Key features include a real-time database, a Notion-style editor, light and dark modes, infinite nested documents, a trash can with soft delete, authentication, file upload, deletion, and replacement, real-time document icons, an expandable and collapsible sidebar, full mobile responsiveness, web publishing, a landing page, document cover images, and file recovery.",
-      projectTechStack: ["React", "Tailwind CSS","typescript","nextjs","clerk","nextauth","convex"],
-      odd: false,
     },
     {
       projectUrlLink: "https://google-clone-v2-psi.vercel.app/",
