@@ -49,7 +49,7 @@ const NavBar = () => {
                         <li> <span> 05. </span> Contact </li>
                     </a>
                     
-                    <a href='https://drive.google.com/file/d/1MSK7Gfwp9tebqX_NB9aBxymGPOchZAfX/view?usp=sharing' target='_blank' className='ml-2' >
+                    <a href='https://drive.google.com/file/d/1ImLnTWxLbkIS9G5Y_-FBTPDL95okg-2W/view?usp=sharing' target='_blank' className='ml-2' >
                     <Button text="Resume" />
                     </a>
                 </ol>
